@@ -579,7 +579,12 @@ footer p {
 
 
 @media (max-width: 1279px) {
-    .info, .formInfo, .imgSubListSec, .subInfo, .standInfo, .standardSec div {
+    .formInfo {
+        padding: 3rem;
+        width: 70%;
+    }
+
+    .info, .imgSubListSec, .subInfo, .standInfo, .standardSec div {
         padding: 5rem;
         width: 100%;
     }
