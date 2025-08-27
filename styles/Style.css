@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: opnen sans, sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    justify-content: space-between;
+    height: 5rem;
+    padding-left: 10rem;
+    padding-right: 9rem;
+}
+
+header img {
+    width: 5rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 3.5rem;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+}
+
+.secprin {
+    background-image: linear-gradient(#00000080), url(../assets/images/headerBg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7rem 1PX 7rem 7rem;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'open sans', sans-serif;
+    width: 50%;
+}
+
+.info img {
+    width: 10rem;
+}
+
+.info h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-top: 2rem;
+}
+
+.info p {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.p {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00000000;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'open sans', sans-serif;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.info button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.formInfo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInfo h3 {
+    padding: 15px 40px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+    background-color: #f7eded;
+}
+
+.formInfo span {
+    color: #ff6600;
+}
+
+.formInfo form {
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.formInfo input {
+    margin: 20px 40px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: solid 1px #00000048;
+}
+
+.formInfo button {
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    background: #ff6600;
+    cursor: pointer;
+    border: none;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 0.5px #b1acac;
+    box-shadow: 0 1px 2px #74727280; 
+}
+
+.infoSocial{
+    padding: 20px 220px;
+}
+
+.socialMedia h3 {
+    padding-bottom: 5px;
+}
+
+.socialMedia p {
+    color: #00000052;
+}
+
+.redesSociales img{
+    width: 100px;
+    padding: 10px 40px 0 0;
+}
+
+.secTabs {
+    display: flex;
+    height: auto;
+    background-color: #f1f1f1;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 220px;
+    color: #fff;
+}
+
+.tab div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 120px;
+   height: 120px;
+}
+
+.primtTab {
+    background-color: #ff6600;
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid 0.5px #fff;
+}
+
+.segTab {
+    background-color: #353434;
+}
+
+.tercTab {
+    background-color: #353434;
+    border-radius: 0 0 5px 5px;
+    border-top: solid 0.5px #fff;
+}
+
+.infoTab {
+    padding: 150px 0;
+}
+
+.infoTab h3 {
+    padding-bottom: 50px;
+}
+
+.infoTab p {
+    padding-bottom: 50px;
+    color: #00000052;
+    font-weight: 100;
+}
+
+.infoTab button {
+    padding: 10px 30px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.imgTabs {
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subListSec {
+    display: flex;
+    height: auto;
+}
+
+.imgSubListSec {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.imgSubListSec img {
+    box-shadow: 10px 15px 40px #747272;
+}
+
+.subInfo {
+    width: 50%;
+    padding: 130px 330px 60px 150px;   
+}
+
+.subInfo h2 {
+    padding-bottom: 20px;
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.subInfo P {
+    color: #00000052;
+    padding-bottom: 40px;
+}
+
+.title {
+    display: flex;
+}
+
+.title img {
+    width: 70px;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.title h5 {
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #000000d8;
+}
+
+.standardSec {
+    display: flex;
+    background-color: #f1f1f1;
+    height: auto;
+}
+
+.standInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 202px 0 220px;
+}
+
+.standInfo h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #ff6600;
+}
+
+.standInfo p {
+    color: #00000052;
+    padding-bottom: 30px;
+}
+
+.standardSec div {
+    width: 50%;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.standardSec img {
+    box-shadow: 10px 15px 40px #747272;
+}
+
+.descrip {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'raleway';
+    font-weight: normal;
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.descrip h2 {
+    padding-bottom: 20px;
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.descrip p {
+    color: #00000052;
+    padding-bottom: 90px;
+}
+
+.secDescrip {
+    display: flex;
+    padding: 0 300px;
+    gap: 50px;
+}
+
+.secDescrip h3 {
+    padding: 30px 0;
+}
+
+.plan {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.planInfo h2 {
+    padding-bottom: 20px;
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.planInfo p {
+    padding-bottom: 80px;
+    color: #00000052;
+}
+
+.contenedorPlanes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contenedorPlanes p {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: solid 0.1px #3534343f;
+    color: #00000052;
+}
+
+.contenedorPlanes div {
+    width: 390px;
+}
+
+.contenedorPlanes h2 {
+    color: #fff;
+    padding: 15px;
+    background-color: #353434;
+    border-bottom: solid 1px #fff;
+}
+
+.planes {
+    background-color: #353434;
+    color: #fff;
+    border-bottom: solid 7px #ff6600;
+}
+
+.planes span {
+    font-size: 40px;
+}
+
+.planes h3 {
+    font-size: 130px;
+    font-family: 'raleway';
+    padding-bottom: 5px;
+}
+
+.planes h4 {
+    padding-bottom: 15px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Open Sans';   
+    color: #ffffff5d;
+}
+
+.masPopular {
+    padding-bottom: 100px;
+}
+
+#popular {
+    color: #fff;
+    background-color: #ff6600;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.comentarios {
+    text-align: center;
+    height: auto;
+}
+
+.comentarios h2 {
+    padding-bottom: 22px;
+    color: #ff6600;
+    font-size: 22px;
+}
+
+.comentarios p {
+    color: #00000052;
+    padding-bottom: 50px;
+}
+
+.personasComent {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.persona {
+    display: flex;
+}
+
+.persona img {
+    width: 70px;
+    border-radius: 50px;
+    margin: 15px 10px 100px 0;
+}
+
+.persona h3 {
+    padding-top: 30px;
+}
+
+.fondoTexto {
+    background-image: url(../assets/images/textBubble.png);
+    background-size: cover;
+    width: 310px;
+    padding: 25px;
+    text-align: start;
+    font-family: 'raleway';
+    font-style: italic;
+    font-size: 15px;
+}
+
+.secStylish {
+    background-image: linear-gradient(#000000b9), url(../assets/images/bg2.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.secStylish h2 {
+    font-size: 22px;
+    padding-bottom: 22px;
+}
+
+.secStylish p {
+    color: #ffffff5d;
+}
+
+.secStylish button {
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+    margin: 30px 0 100px 0;
+    padding: 10px 30px;
+    border: solid 2px #fff;
+    cursor: pointer;
+}
+
+.secContacto {
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 22px;
+    color: #ff6600;
+    padding-bottom: 22px;
+}
+
+.contacto p {
+    color: #00000052;
+    padding-bottom: 50px;
+}
+
+.secContacto form {
+    display: flex;
+    justify-content: center;
+}
+
+.secContacto input {
+    margin: 20px 40px;
+    padding: 5px 10px;
+    width: 530px;
+    border: none;
+    border-bottom: solid 1px #9493937a;
+}
+
+.secContacto textarea {
+    margin: 20px 40px;
+    width: 530px;
+    color: #00000052;
+    border: none;
+    border-bottom: solid 1px #9493937a;
+}
+
+.secContacto button {
+    padding: 10px 25px;
+    margin: 20px 0 100px 0;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius:  5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+}
+
+footer img {
+    padding: 20px 0 10px 0;
+    width: 400px;
+}
+
+footer p {
+    color: #ffffff5d;
+    font-size: 14px;
+}
+
+
+
+/* aqui empieza el media query */
+
+
+
+@media (max-width: 1279px) {
+    .info, .formInfo, .imgSubListSec, .subInfo, .standInfo, .standardSec div {
+        padding: 5rem;
+        width: 100%;
+    }
+
+    .secDescrip {
+        padding: 0 100px;
+        flex-direction: column;
+    }
+
+    .contenedorPlanes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 920px) {
+    header {
+        flex-direction: column;
+        padding: 2rem;
+        height: auto;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .secprin {
+        flex-direction: column;
+    }
+
+    .info {
+        align-items: center;
+        padding: 4rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .formInfo {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .socialMedia {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .infoSocial {
+        padding: 2rem;
+    }
+
+    .secTabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab {
+        padding: 3rem;
+        text-align: center;
+    }
+
+    .infoTab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgTabs {
+        width: 100%;
+    }
+
+    .subListSec {
+        flex-direction: column;
+    }
+
+    .imgSubListSec, .subInfo {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .standardSec {
+        flex-direction: column;
+    }
+
+    .standInfo, .standardSec div {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .secDescrip {
+        padding: 0 2rem;
+        gap: 2rem;
+    }
+
+    .plan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .masPopular {
+        padding-bottom: 0px;
+    }
+
+    .contenedorPlanes div {
+        width: 100%;
+    }
+
+    .contenedorPlanes p {
+        width: 100%;
+    }
+
+    .contenedorPlanes h2 {
+        width: 100%;
+    }
+
+    .secContacto input, .secContacto textarea {
+        width: 100%;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .info p, .info button {
+        font-size: 1rem;
+    }
+
+    .secTabs {
+        align-items: center;
+    }
+
+    .tab {
+        width: 190px;
+    }
+
+    .infoTab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab div {
+        width: 100px;
+        height: 100px;
+    }
+
+    .planes h3 {
+        font-size: 100px;
+    }
+
+    .fondoTexto {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    footer img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .info p, .info button {
+        font-size: 0.9rem;
+    }
+
+    .tab div {
+        width: 80px;
+        height: 80px;
+    }
+
+    .secTabs {
+        align-items: center;
+    }
+
+    .infoTab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planes h3 {
+        font-size: 80px;
+    }
+
+    .fondoTexto {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    footer img {
+        width: 100%;
+    }
+
+    .secContacto button {
+        width: 100%;
+    }
+}
